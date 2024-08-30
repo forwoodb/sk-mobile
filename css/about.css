@@ -2,6 +2,10 @@
       About 
 ******************************/
 @media screen and (min-width: 0rem) {
+  header {
+    height: 5rem;
+  }
+
   #about .container {
     padding: 3rem 0;
   }
@@ -9,5 +13,13 @@
   #about img {
     width: 100%;
     height: 100%;
+  }
+
+  .about-text {
+    padding: 1rem 0;
+  }
+
+  .about-text h3 {
+    padding: 1rem 0;
   }
 }
